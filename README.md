@@ -32,9 +32,9 @@
 
 ### Event Trigger
 
-- ButtonTriggerExample.xaml
-
 ประกาศ Trigger Handler ไว้ในไฟล์ `C#` สามารถเรียกใช้โดยเพิ่ม namespace `xmlns:local="clr-namespace:Behavior; assembly=Behavior"` ใน Xaml
+
+- ButtonTriggerExample.xaml
 
 ```xml
 <ContentPage
@@ -91,7 +91,7 @@ namespace Behavior {
 
 ```
 
-![](screen/triggers.png)
+![](screen/trigger.png)
 
 #### Reference
 
