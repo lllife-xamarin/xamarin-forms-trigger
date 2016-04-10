@@ -84,16 +84,8 @@ namespace Behavior {
             sender.TextColor = sender.TextColor == Color.Green ? Color.Red : Color.Green;
         }
     }
-
-    public class ImageTrigger : TriggerAction<Image> {
-        protected override void Invoke (Image sender) {
-            sender.Opacity = .5;
-        }
-    }
 }
-
 ```
-
 
 #### Reference
 
