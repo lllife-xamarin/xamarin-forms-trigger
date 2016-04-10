@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
+		xmlns:local="clr-namespace:Behavior; assembly=Behavior"
+		x:Class="Behavior.ButtonTriggerExample">
+	<ContentPage.Content>
+		<StackLayout Padding="10,30,10,10">
+		    <Entry Placeholder="Enter a System.Double">
+	            <Entry.Triggers>
+	                <EventTrigger Event="TextChanged">
+	                    <local:NumericValidationTriggerAction />
+	                </EventTrigger>
+	            </Entry.Triggers>
+	        </Entry>
+
+			<Button Text="Event Trigger Button">
+				<Button.Triggers>
+					<EventTrigger Event="Clicked">
+						<local:ButtonTrigger/>
+					</EventTrigger>
+				</Button.Triggers>
+			</Button>
+			<!--
+			<Image Source="jw.png">
+				<Image.Triggers>
+					<EventTrigger Event="Clicked">
+						<local:ImageTrigger/>
+					</EventTrigger>
+				</Image.Triggers>
+			</Image>
+			-->
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
