@@ -27,7 +27,6 @@ namespace Behavior
 		{
 			sender.Opacity = .5;
 		}
-
 	}
 }
 

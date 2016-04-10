@@ -1,5 +1,3 @@
-### Trigger & Behavior
-
 ### Style Trigger
 
 สามารถเพิ่ม Trigger ใน Xaml โดยไม่จำเป็นต้องแก้ไขโค้ด `C#`
@@ -92,6 +90,8 @@ namespace Behavior {
 }
 
 ```
+
+![](screen/triggers.png)
 
 #### Reference
 
